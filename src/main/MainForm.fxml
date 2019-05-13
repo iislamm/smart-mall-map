@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="main.MainController">
+  <children>
+    <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <bottom>
+        <GridPane prefHeight="65.0" prefWidth="599.9999000000025" style="-fx-background-color: #CE3C9A;">
+          <children>
+            <Button fx:id="SearchButton" alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mapButtonHandler" prefHeight="55.0" prefWidth="120.0" style="-fx-background-color: #CE3C9A;&#10;-fx-width: 100%;&#10;-fx-height: 100%;" text="Mall Map" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <font>
+                <Font size="10.0" fx:id="x1" />
+              </font>
+              <GridPane.margin>
+                <Insets bottom="-3.0" fx:id="x2" />
+              </GridPane.margin>
+            </Button>
+            <ImageView id="store (1).png" fitHeight="40.0" fitWidth="40.0" mouseTransparent="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="TOP">
+              <image>
+                <Image url="@../Project%20Images/store%20(1).png" fx:id="x3" />
+              </image>
+              <GridPane.margin>
+                <Insets top="3.0" fx:id="x4" />
+              </GridPane.margin>
+            </ImageView>
+            <Button fx:id="OrderButton" alignment="BOTTOM_CENTER" font="$x1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#orderButtomHandler" prefHeight="56.0" prefWidth="143.0" style="-fx-background-color: #CE3C9A;&#10;-fx-width: 100%;&#10;-fx-height: 100%;" text="Make an Order" textFill="WHITE" GridPane.columnIndex="1" GridPane.margin="$x2" GridPane.rowIndex="0" />
+            <ImageView id="store (1).png" fitHeight="40.0" fitWidth="40.0" mouseTransparent="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.margin="$x4" GridPane.rowIndex="0" GridPane.valignment="TOP">
+              <image>
+                <Image url="@../Project%20Images/order.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="NearestExitButton" alignment="BOTTOM_CENTER" font="$x1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#nearestExitButtonHandler" prefHeight="48.0001220703125" prefWidth="120.0" style="-fx-background-color: #CE3C9A;&#10;-fx-width: 100%;&#10;-fx-height: 100%;" text="Show Nearest Exit" textFill="WHITE" GridPane.columnIndex="2" GridPane.margin="$x2" GridPane.rowIndex="0" />
+            <Button fx:id="PromotionsButton" alignment="BOTTOM_CENTER" font="$x1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#PromotionsButtonHandler" prefHeight="52.0" prefWidth="120.0" style="-fx-background-color: #CE3C9A;&#10;-fx-width: 100%;&#10;-fx-height: 100%;" text="Latest Promotions" textFill="WHITE" GridPane.columnIndex="3" GridPane.margin="$x2" GridPane.rowIndex="0" />
+            <ImageView id="store (1).png" fitHeight="40.0" fitWidth="40.0" mouseTransparent="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.margin="$x4" GridPane.rowIndex="0" GridPane.valignment="TOP">
+              <image>
+                <Image url="@../Project%20Images/exit.png" />
+              </image>
+            </ImageView>
+            <ImageView id="store (1).png" fitHeight="40.0" fitWidth="40.0" mouseTransparent="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.margin="$x4" GridPane.rowIndex="0" GridPane.valignment="TOP">
+              <image>
+                <Image url="@../Project%20Images/tag.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="AdmdinButton" alignment="BOTTOM_CENTER" font="$x1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#adminButtonHandler" prefHeight="52.0" prefWidth="120.0" style="-fx-background-color: #CE3C9A;&#10;-fx-width: 100%;&#10;-fx-height: 100%;" text="Admin Login" textFill="WHITE" GridPane.columnIndex="4" GridPane.margin="$x2" GridPane.rowIndex="0" />
+            <ImageView id="store (1).png" fitHeight="26.0" fitWidth="27.0" mouseTransparent="true" rotate="180.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.margin="$x4" GridPane.rowIndex="0" GridPane.valignment="TOP">
+              <image>
+                <Image url="@../Project%20Images/left%20(1).png" />
+              </image>
+            </ImageView>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </bottom>
+      <center>
+        <BorderPane fx:id="containerPane" prefHeight="200.0" prefWidth="200.0" />
+      </center>
+    </BorderPane>
+  </children>
+  <stylesheets>
+    <URL value="@Main.css" />
+  </stylesheets>
+</AnchorPane>

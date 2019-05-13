@@ -1,0 +1,35 @@
+#cartLabel{
+    -fx-background-color:#632A7B;
+    -fx-text-fill:white;
+    -fx-font-family:"Segoe UI";
+    -fx-font-weight:bold;
+    -fx-font-size:19;
+}
+#storeNameLabel{
+    -fx-background-color:white;
+    -fx-text-fill:black;
+    -fx-font-family:"Segoe UI";
+    -fx-font-size:19;
+}
+#priceLabel{
+    -fx-text-fill:black;
+    -fx-font-family:"Segoe UI";
+    -fx-font-size:15;
+}
+
+#totalPriceLabel{
+    -fx-text-fill:black;
+    -fx-font-family:"Segoe UI";
+    -fx-font-size:15;
+}
+#proceedBtn{
+    -fx-background-color:#9A2C72;
+    -fx-text-fill:white;
+    -fx-font-family:"Segoe UI";
+    -fx-font-weight:bold;
+    -fx-font-size:15;
+}
+.list-view .list-cell{
+    
+    
+}

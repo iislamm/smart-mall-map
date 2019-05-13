@@ -1,0 +1,27 @@
+.button{
+    -fx-background-color:#A52D7A;
+    -fx-font-family:"Segoe UI";
+    -fx-font-weight:bold;
+    -fx-font-size:17;
+    -fx-text-fill:white;
+}
+#catLabel{
+    /*-fx-background-color:#064;*/
+    -fx-text-fill:white;
+    -fx-font-family:"Segoe UI";
+    -fx-font-weight:bold;
+    -fx-font-size:29;
+}
+.button:hover{
+    -fx-background-color: #9A2C72;
+    
+    
+}
+.button:focused{
+    -fx-background-color:#9A2C72;
+}
+
+
+
+
+

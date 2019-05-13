@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CheckoutFormController">
+   <children>
+      <Button fx:id="confirmButton" layoutX="346.0" layoutY="449.0" mnemonicParsing="false" onAction="#confirmBtn" prefHeight="51.0" prefWidth="354.0" style="-fx-background-color: #00A53C;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="-13.0" layoutY="449.0" mnemonicParsing="false" onAction="#cancelBtn" prefHeight="51.0" prefWidth="361.0" style="-fx-background-color: red;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="containerLabel" layoutY="37.0" prefHeight="227.0" prefWidth="700.0" style="-fx-background-color: #0195FF;">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="-1.0" layoutY="-2.0" prefHeight="37.0" prefWidth="700.0" text="Your Order Contains:">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="382.0" prefHeight="37.0" prefWidth="161.0" text="Your Total Price:">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="298.0" prefHeight="37.0" prefWidth="139.0" text="Delivered Time:">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="207.0" layoutY="298.0" prefHeight="37.0" prefWidth="117.0" text="10 minutes">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="345.0" prefHeight="37.0" prefWidth="161.0" text="Location on Map:">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="207.0" layoutY="351.0" mnemonicParsing="false" onAction="#showOnMapBtn" prefHeight="25.0" prefWidth="117.0" text="Show On Map" />
+      <Label fx:id="totalPriceLabel" layoutX="207.0" layoutY="382.0" prefHeight="37.0" prefWidth="161.0" text="10 $">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
